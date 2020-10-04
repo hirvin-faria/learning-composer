@@ -1,14 +1,12 @@
-<?php 
+<?php
 
 namespace HirvinFaria\BuscadorDeCursos;
 
 use GuzzleHttp\ClientInterface;
 use Symfony\Component\DomCrawler\Crawler;
 
-
-class Buscador 
+class Buscador
 {
-
     /**
      * @var ClientInterface
      */
