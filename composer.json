@@ -1,0 +1,22 @@
+{
+    "name": "hirvin-faria/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "hirvin-faria",
+            "email": "hirvin.nogueira.faria@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.1",
+        "symfony/dom-crawler": "^5.1",
+        "symfony/css-selector": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "HirvinFaria\\BuscadorDeCursos\\": "src/"
+        },
+        "files": ["./functions.php"]
+    }
+}
