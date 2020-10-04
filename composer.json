@@ -39,5 +39,7 @@
     },
     "scripts-descriptions": {
         "runscripts": "Executa as verificacoes de codigo phan e php cs depois executa o php unit"
-    }
+    },
+    "license": "MIT",
+    "bin": ["buscar-cursos.php"]
 }
